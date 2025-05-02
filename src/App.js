@@ -11,6 +11,7 @@ import Login from './pages/Login.js';
 import Dashboard from './pages/Dashboard';
 import Profile from './pages/Profile';
 import NotFound from './Components/NotFound';
+import Footer from './Components/Footer.js';
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
+      <Footer />
     </>
   );
 }
