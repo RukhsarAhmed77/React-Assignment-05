@@ -2,6 +2,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import MainLayout from './Components/MainLayout';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -25,11 +26,10 @@ export default function App() {
         <Route path="/career" element={<Career />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard/:email" element={<Dashboard />} />
-        <Route path="/profile/:name" element={<Profile />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/profile" element={<Profile />} />
       </Route>
 
-      {/* NotFound route (no layout) */}
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

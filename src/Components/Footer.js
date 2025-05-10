@@ -22,9 +22,10 @@ const Footer = () => {
           <Col md={4} className="mb-3">
             <h5>Follow Us</h5>
             <p>
-              <a href="#" className="text-white me-3">Facebook</a>
-              <a href="#" className="text-white me-3">Twitter</a>
-              <a href="#" className="text-white">LinkedIn</a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white me-3">Facebook</a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white me-3">Twitter</a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-white">LinkedIn</a>
+
             </p>
           </Col>
         </Row>

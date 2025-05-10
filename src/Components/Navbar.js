@@ -24,25 +24,26 @@ export default function Navbar() {
               <NavLink className="nav-link" to="/">Home</NavLink>
             </li>
             <li className="nav-item">
+              <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink className="nav-link" to="/about">About</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">Contact</NavLink>
-            </li>
-            <li className="nav-item">
-              <NavLink className="nav-link" to="/team">Team</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/career">Career</NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="/pricing">Pricing</NavLink>
-            </li>
-            <li className="nav-item">
               <NavLink className="nav-link" to="/Dashboard">Dashboard</NavLink>
             </li>
             <li className="nav-item">
+              <NavLink className="nav-link" to="/team">Team</NavLink>
+            </li>
+            <li className="nav-item">
               <NavLink className="nav-link" to="/Profile">Profile</NavLink>
+            </li>
+            
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/contact">Contact</NavLink>
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/login">Login</NavLink>
